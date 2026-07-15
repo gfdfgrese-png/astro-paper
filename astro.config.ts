@@ -21,7 +21,7 @@ import config from "./astro-paper.config";
 
 export default defineConfig({
   site: config.site.url,
-   base: "/astro-paper",
+   base: "/astro-paper/",
   integrations: [
     mdx(),
     sitemap({
